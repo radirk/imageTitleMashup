@@ -1,0 +1,5 @@
+d.captioned-image         { position: relative; margin: 1em 0; }
+dl.captioned-image dt img  { display: block; }
+dl.captioned-image dd      { position: absolute; left: 0; bottom: 1.25em; font: bold 1.5em/0.75em Helvetica, sans-serif;}
+dl.captioned-image.top dd  { top: 1.25em; }
+dl.captioned-image dd span { display: block; float: left; clear: both; background-color: #000; background-color: rgba(0, 0, 0, 0.7); padding: 0.25em 0.5em; color: #fff; }
