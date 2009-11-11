@@ -1,13 +1,14 @@
 function onBefore() {
-    $("dd").hide();
+    $(this).children("dd").hide();
 }
 
 function onAfter() {
    // $("dd").fadeOut("slow");
-   $("dd").fadeIn("slow");
+   $(this).children("dd").fadeIn("slow");
 }
 $(document).ready(function(){
      
+    $('#captioned-images').show();
     $('#captioned-images').cycle({
         fx: 'scrollLeft',
         timeout: 5000,

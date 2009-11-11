@@ -1,0 +1,2 @@
+This app demonstrates the combination of the css-less image overlay technique by David Chambers (http://davidchambersdesign.com/captions-over-images/)
+with animation via the jQuery cycle plugin (http://www.malsup.com/jquery/cycle/).
